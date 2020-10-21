@@ -1,0 +1,97 @@
+body,html{
+    height: 100%;
+}
+
+.bg{
+    height: 100%;
+    background-image: url("/images/homeBackground.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    min-height: 110px;
+}
+.navbar-custom{
+    background-color:black;
+}
+.splash-container{
+    width: 200px;
+    height: 200px;
+}
+.splash{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand{
+    font-family: 'Sriracha',cursive;
+    font-size: 35px !important;
+    padding: 0 35px; 
+}
+
+.nav-item{
+    font-family: 'Bellota',cursive;
+    font-size: 20px !important;
+    padding-right: 12px;
+}
+
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: 'Pacifico',cursive;
+    font-size: 5vw;
+    line-height: 80vh;
+    text-align: center;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
